@@ -1,0 +1,100 @@
+﻿@model FriendsQuiz.Models.Question
+
+@{
+    ViewBag.Title = "'Friends' Quiz";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+@using (Html.BeginForm("NextQuestion", "Home", FormMethod.Post))
+{
+
+
+    <div class="row form-quiz">
+        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+            <div class="row">
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h2> User: @ViewBag.user</h2>
+                    <h3> Current score: @ViewBag.currentScore</h3>
+                </div>
+
+                <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                    <h3> Question: @ViewBag.currentQuestion of 10</h3>
+                    <h4> Score of the question: @Model.Score</h4>
+                    <h4 id="countdown">
+                        Time remaining: <span class="seconds">00</span> seconds
+                    </h4>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+
+    <div class="row">
+        <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 question-box'>
+            <div id="question" class="question">
+
+                <div class="row" id="@Model.id" style="text-align:center;">
+                    @Model.question
+
+                </div>
+
+
+                <div class="row ">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 ">
+                        <input type="submit" class="btn button answer" value="@Model.Answers[0]" name="answer" id="answer1" />
+                    </div>
+
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 "><input type="submit" class="btn button answer" value="@Model.Answers[1]" name="answer" id="answer2" /></div>
+
+                  
+                </div>
+                <div class="row">
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 "><input type="submit" value="@Model.Answers[2]" name="answer" class="btn button answer" id="answer3" /></div>
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 "><input type="submit" value="@Model.Answers[3]" name="answer" class="btn button answer" id="answer4" /></div>
+                </div>
+            </div>
+
+        </div>
+        <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1">&nbsp;</div>
+        <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 image-panel same-height">
+            <img id="image" src="~/Content/images/@(ViewBag.image).jpg" class="img-thumbnail img-responsive" />
+        </div>
+        
+
+        </div>
+
+}
+
+@section Scripts {
+    <script src="~/Scripts/countdown.js"></script>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $("#image").height = $("#question").innerHeight;
+            var finishTime = new Date($.now() + 15000);
+            $("#countdown").countdown({
+                date: finishTime,
+                format: "on"
+            },
+
+                  function () {
+                      alert("Time is up!! Sorry, you earned 0 points for this question!!");
+                      $("#countdow").stopTimer();
+                      $("form").submit();
+                  });
+
+
+
+            $("input[name='answer']").click(function (e) {
+
+                $("#countdown").stopTimer();
+
+            });
+        });
+
+    </script>
+}

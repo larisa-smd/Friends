@@ -1,0 +1,90 @@
+﻿@model FriendsQuiz.Models.Question
+
+@{
+    ViewBag.Title = "'Friends' Quiz";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+@using (Html.BeginForm("FinishQuestion", "Home",FormMethod.Post))
+{
+    
+
+      
+
+            <div class="row form-quiz">
+                <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <h2> User: @ViewBag.user</h2>
+                            <h3> Current score: @ViewBag.currentScore</h3>
+                        </div>
+
+                        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                            <h3> Question: @ViewBag.currentQuestion of 10</h3>
+                            <h4> Score of the question: @Model.Score</h4>
+                            <h4 id="countdown">
+                                Time remaining: <span class="seconds">00</span> seconds
+                            </h4>
+                        </div>
+                        </div>
+                    </div>
+                
+            </div>
+
+            <div class="row">
+                <div class='col-lg-6 col-md-6 col-sm-12 col-xs-12 question-box'>
+                    <div id="question" class="question">
+
+                        <div class="row" id="@Model.id" style="text-align:center;">
+                            @Model.question
+
+                        </div>
+
+
+                        <div class="row ">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6">
+                                <input type="submit" class="btn button answer @(Model.rightAnswer==Model.Answers[0]? "correct":"")  @(ViewBag.answer==Model.Answers[0]? ViewBag.classAnswer:"") " value="@Model.Answers[0]" disabled id="answer1" />
+                            </div>
+                           
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6  "><input type="submit" class="btn button answer @(Model.rightAnswer==Model.Answers[1]? "correct":"")  @(ViewBag.answer==Model.Answers[1]? ViewBag.classAnswer:"")" value="@Model.Answers[1]" disabled id="answer2" /></div>
+
+                        </div>
+                        <div class="row">
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><input type="submit" value="@Model.Answers[2]" disabled class="btn button answer @(Model.rightAnswer==Model.Answers[2]? "correct":"")   @(ViewBag.answer==Model.Answers[2]? ViewBag.classAnswer:"")" id="answer3" /></div>
+                            
+                            <div class="col-xs-12 col-sm-12 col-md-6 col-lg-6"><input type="submit" value="@Model.Answers[3]" disabled class="btn button answer @(Model.rightAnswer==Model.Answers[3]? "correct":"") @(ViewBag.answer==Model.Answers[3]? ViewBag.classAnswer:"")" id="answer4" /></div>
+                        </div>
+
+
+
+                    </div>
+
+                    <div style="text-align: center; align-content:center;">
+                        <input type="submit" id="next" name="next" class="btn btn-default button" value="NEXT" style="width:60%;" />
+                    </div>
+                </div>
+                <div class="col-lg-1 col-md-1">&nbsp;</div>
+                <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 image-panel same-height">
+                    <img id="image" src="~/Content/images/@(ViewBag.image).jpg" class="img-thumbnail img-responsive" />
+                </div>
+
+            </div>
+            
+
+        
+
+   
+}
+
+
+@section Scripts {
+    <script src="~/Scripts/countdown.js"></script>
+
+    <script type="text/javascript">
+
+    $(document).ready(function () {
+        $("#image").height = $("#question").innerHeight;
+    })
+    </script>
+}

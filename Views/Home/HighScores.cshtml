@@ -1,0 +1,28 @@
+﻿@model IEnumerable<FriendsQuiz.Models.UsersScore>
+
+@{
+    ViewBag.Title = "HighScores";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+    
+}
+<div class="row final-frame">
+    <h2>High Scores</h2>
+    <br />
+    <table class="table table-bordered ">
+        <tr style="text-align:center;">
+            <td> Score</td>
+            <td> User Name</td>
+            <td> Date</td>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr style="text-align:center;">
+                <td>@item.Score</td>
+                <td>@item.Name</td>
+                <td>@item.date.ToShortDateString()</td>
+            </tr>
+        }
+
+    </table>
+</div>

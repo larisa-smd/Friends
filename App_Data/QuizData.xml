@@ -1,0 +1,438 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Questions>
+  <Question>
+    <id>1</id>
+    <Body>How many people are the friends in the "FRIENDS" tv show?</Body>
+    <Score>3</Score>
+    <r>6</r>
+    <w>4,8,7</w>
+  </Question>
+  
+  <Question>
+    <id>2</id>
+    <Body> How many babies did Phoebe carry for her brother?</Body>
+    <Score>3</Score>
+    <r>Three</r>
+    <w>Two,One,None</w>
+  </Question>
+
+  <Question>
+    <id>3</id>
+    <Body> Who does Ross marry in Las Vegas?</Body>
+    <Score>3</Score>
+    <r>Rachel</r>
+    <w>Phoebe,Emily,Marcel</w>
+  </Question>
+
+  <Question>
+    <id>4</id>
+    <Body> Where did Chandler meet Ross?</Body>
+    <Score>3</Score>
+    <r>College</r>
+    <w>High School,Party,Central Perk</w>
+    
+  </Question>
+
+  <Question>
+    <id>5</id>
+    <Body> What is Rachel's surname?</Body>
+    <Score>3</Score>
+    <r>Green</r>
+    <w>Geller,Buffalo,Tribianny</w>
+   
+  </Question>
+
+  <Question>
+    <id>6</id>
+    <Body> What is Phoebe's sister called?</Body>
+    <Score>3</Score>
+    <r>Ursula</r>
+    <w>Emma,Cathy,Carol</w>
+   
+  </Question>
+
+  <Question>
+    <id>7</id>
+    <Body>The 'Geller Cup' is a prize in which sport?</Body>
+    <Score>7</Score>
+    <r>Football</r>
+    <w>Rugby,Tennis,Bowlling</w>
+  </Question>
+
+  <Question>
+    <id>8</id>
+    <Body>What does Monica's dad give her to compensate ruining her childhood possesions?</Body>
+    <Score>7</Score>
+    <r>A Porsche</r>
+    <w>The house,Money,Ross's things</w>
+  </Question>
+  <Question>
+    <id>9</id>
+    <Body>Whose catchphrase is 'Oh My God!'?</Body>
+    <Score>7</Score>
+    <r>Janice</r>
+    <w>Ursula,Emilly,Chandler</w>
+  </Question>
+  <Question>
+    <id>10</id>
+    <Body>What type of animal is 'Hugsy'?</Body>
+    <Score>7</Score>
+    <r>Penguin</r>
+    <w>Koala bear,Bear,Cat</w>
+  </Question>
+  <Question>
+    <id>11</id>
+    <Body>How many Friends have worked in the coffee shop?</Body>
+    <Score>7</Score>
+    <r>2</r>
+    <w>3,4,1</w>
+  </Question>
+  <Question>
+    <id>12</id>
+    <Body>Who was 'The Holiday Armadillo'?</Body>
+    <Score>7</Score>
+    <r>Ross</r>
+    <w>Chandler,Joey,Gunther</w>
+  </Question>
+  <Question>
+    <id>13</id>
+    <Body>Who of the friends id suspended from his/her job because of an anger problem?</Body>
+    <Score>7</Score>
+    <r>Ross</r>
+    <w>Monica,Joey,Phoebe</w>
+  </Question>
+  <Question>
+    <id>14</id>
+    <Body>What is the name of the neighbour who leaves everything to Monica and Rachel when he dies?</Body>
+    <Score>7</Score>
+    <r>Mr Heckles</r>
+    <w>Ugly naked guy,Eddie,Richard</w>
+  </Question>
+  
+  <Question>
+    <id>15</id>
+      <Body>The 'Geller Cup' is a prize in which sport?</Body>
+      <Score>7</Score>
+      <r>Football</r>
+      <w>Ping Pong,Tennis,Bowlling</w>
+    </Question>
+
+  <Question>
+    <id>16</id>
+    <Body>What is the name of the character Bruce Willis plays for a few episodes?</Body>
+    <Score>10</Score>
+    <r>Paul</r>
+    <w>Billy,Eddie,Dad </w>
+  </Question>
+
+  <Question>
+    <id>17</id>
+    <Body>Who is the female paleontologist both Ross and Joey date?</Body>
+    <Score>10</Score>
+    <r>Charlie</r>
+    <w>Lily,Muriel,Judy</w>
+  </Question>
+  
+  <Question>
+    <id>18</id>
+    <Body>What is 'the giant poking device' made from?</Body>
+    <Score>10</Score>
+    <r>Chopsticks</r>
+    <w>Branches,Broom sticks,Toothpicks</w>
+  </Question>
+  <Question>
+    <id>19</id>
+    <Body>What is Chandler's middle name?</Body>
+    <Score>10</Score>
+    <r>Muriel</r>
+    <w>Paul,Gunther,Richard</w>
+  </Question>
+  <Question>
+    <id>20</id>
+    <Body>What is Phoebe's adoptive mother's first name?</Body>
+    <Score>10</Score>
+    <r>Lily</r>
+    <w>Emma,Carol,Emily</w>
+  </Question>
+  <Question>
+    <id>21</id>
+    <Body>Who is the youngest Friend?</Body>
+    <Score>10</Score>
+    <r>Rachel</r>
+    <w>Chandler,Phoebe,Joey</w>
+  </Question>
+  <Question>
+    <id>22</id>
+    <Body>What colour of sweater belongs to the father of Rachel's baby?</Body>
+    <Score>10</Score>
+    <r>Red</r>
+    <w>Black,Brown,Purple</w>
+  </Question>
+  <Question>
+    <id>23</id>
+    <Body>How many sisters does Joey have?</Body>
+    <Score>10</Score>
+    <r>Seven</r>
+    <w>Eigth,Six,Five</w>
+  </Question>
+  <Question>
+    <id>24</id>
+    <Body>What part of New York is Rachel originally from?</Body>
+    <Score>10</Score>
+    <r>Long Island</r>
+    <w>Forest Hills,Sunnyside,Corona </w>
+  </Question>
+  <Question>
+    <id>25</id>
+    <Body>Where do Phoebe and Mike get married?</Body>
+    <Score>10</Score>
+    <r>On the street</r>
+    <w>Las Vegas,Central Perk,Barbados </w>
+  </Question>
+  <Question>
+    <id>26</id>
+    <Body>What was the name of Ross' monkey?</Body>
+    <Score>3</Score>
+    <r>Marcel</r>
+    <w>Paul,Gunther,Jack </w>
+  </Question>
+<Question>
+    <id>27</id>
+    <Body>What is the name of Joey's soap opera?</Body>
+    <Score>3</Score>
+    <r>Days of our lives</r>
+    <w>Santa Barbara,General Hospital,All My Children </w>
+  </Question>
+<Question>
+    <id>28</id>
+    <Body>What types of bird do Joey and Chandler own?</Body>
+    <Score>3</Score>
+    <r>Chick &amp; Duck</r>
+    <w>Chick &amp; Goose,Goose &amp; Duck,Monkey &amp; Duck </w>
+  </Question>
+<Question>
+    <id>29</id>
+    <Body>What is Monica's job?</Body>
+    <Score>3</Score>
+    <r>Chef</r>
+    <w>Waitress,Sales Person,Doctor </w>
+  </Question>
+<Question>
+    <id>30</id>
+    <Body>What instrument does Phoebe play?</Body>
+    <Score>3</Score>
+    <r>Guitar</r>
+    <w>Drums,Cello,Violin </w>
+  </Question>
+<Question>
+    <id>31</id>
+    <Body>Who marries Chandler and Monica?</Body>
+    <Score>3</Score>
+    <r>Joey</r>
+    <w>Mike,Gunther,Mr Heckles </w>
+  </Question>
+<Question>
+    <id>32</id>
+    <Body>What was the nationality of Ross' second wife, Emily?</Body>
+    <Score>3</Score>
+    <r>English</r>
+    <w>Italian,Deutch,Spanish</w>
+  </Question>
+<Question>
+    <id>33</id>
+    <Body>What is the name of Ross and Rachel's daughter?</Body>
+    <Score>3</Score>
+    <r>Emma</r>
+    <w>Emily,Monica,Lisa</w>
+  </Question>
+<Question>
+    <id>34</id>
+    <Body>What is Rachel wearing when she first appears in the 'Pilot' episode?</Body>
+    <Score>3</Score>
+    <r>Wedding Dress</r>
+    <w>Swimming suit,Nothing,A sheet </w>
+  </Question>
+<Question>
+    <id>35</id>
+    <Body>Where does 'Gunther' work?</Body>
+    <Score>3</Score>
+    <r>Central Perk</r>
+    <w>London,A pub,Bloomingdales </w>
+  </Question>
+<Question>
+    <id>36</id>
+    <Body>What Friend was famously overweight as a child?</Body>
+    <Score>3</Score>
+    <r>Monica</r>
+    <w>Rachel,Ross,Chandler</w>
+  </Question>
+<Question>
+    <id>37</id>
+    <Body>Whose surname is 'Buffay'?</Body>
+    <Score>3</Score>
+    <r>Phoebe</r>
+    <w>Monica,Rachel,Emily </w>
+  </Question>
+<Question>
+    <id>38</id>
+    <Body>Where did Monica and Chandler first get together?</Body>
+    <Score>3</Score>
+    <r>London</r>
+    <w>Las Vegas,Barbados,New York</w>
+  </Question>
+<Question>
+    <id>39</id>
+    <Body>Whose son is Ben?</Body>
+    <Score>3</Score>
+    <r>Ross</r>
+    <w>Chandler,Joey,Rachel </w>
+  </Question>
+<Question>
+    <id>40</id>
+    <Body>Where is Chandler forced to work after falling asleep in a meeting?</Body>
+    <Score>7</Score>
+    <r>Tulsa</r>
+    <w>Las Vegas,Long Island,Barbados </w>
+  </Question>
+<Question>
+    <id>41</id>
+    <Body>What is the name of Chandler's roomate after Joey moves out?</Body>
+    <Score>7</Score>
+    <r>Eddie</r>
+    <w>Paul,Rachel,Phoebe </w>
+  </Question>
+<Question>
+    <id>42</id>
+    <Body>What is the name of Joey's agent?</Body>
+    <Score>7</Score>
+    <r>Estelle</r>
+    <w>Emily,Charlie,Lisa</w>
+  </Question>
+<Question>
+    <id>43</id>
+    <Body>Which friend of her parents does Monica date?</Body>
+    <Score>7</Score>
+    <r>Richard</r>
+    <w>Paul,Jack,Marcel</w>
+  </Question>
+ <Question>
+    <id>44</id>
+    <Body>Which basketball team do Ross, Joey and Chandler support?</Body>
+    <Score>7</Score>
+    <r>New York Knicks</r>
+    <w>Chicago Bulls,Boston Celtics,Sacramento Kings </w>
+  </Question>
+<Question>
+    <id>45</id>
+    <Body>Who introduced Phoebe and Mike?</Body>
+    <Score>7</Score>
+    <r>Joey</r>
+    <w>Ross,Chandler,Monica</w>
+  </Question>
+<Question>
+    <id>46</id>
+    <Body>What surrounds the peep-hole on the door of Monica's apartment?</Body>
+    <Score>7</Score>
+    <r>A Photo Frame</r>
+    <w>Nothing,A Sticker,A photo </w>
+  </Question>
+<Question>
+    <id>47</id>
+    <Body>Where does Rachel work before finding work in fashion?</Body>
+    <Score>7</Score>
+    <r>Central Perk</r>
+    <w>Nowhere,Cleaning,Massage Shop </w>
+  </Question>
+<Question>
+    <id>48</id>
+    <Body>Which Friend lived on the street when they were younger?</Body>
+    <Score>7</Score>
+    <r>Phoebe</r>
+    <w>Rachel,Chandler,Joey</w>
+  </Question>
+<Question>
+    <id>49</id>
+    <Body>Where does Chandler's father live?</Body>
+    <Score>7</Score>
+    <r>Vas Vegs</r>
+    <w>New York,London,Barbados</w>
+  </Question>
+<Question>
+    <id>50</id>
+    <Body>What does Joey wear to Monica and Chandler's wedding?</Body>
+    <Score>7</Score>
+    <r>An army uniform</r>
+    <w>A priest uniform,Nothing,A suit</w>
+  </Question>
+<Question>
+    <id>51</id>
+    <Body>What are Ross and Monica's parent's names?</Body>
+    <Score>10</Score>
+    <r>Jack &amp; Judy</r>
+    <w>Charlie &amp; Emma,Jack &amp; Emily,Paul &amp; Judy</w>
+  </Question>
+<Question>
+    <id>52</id>
+    <Body>What is Chandler's mother's job?</Body>
+    <Score>10</Score>
+    <r>Erotic Novelis</r>
+    <w>Reporter,News Presenter,Doesn't work</w>
+  </Question>
+<Question>
+    <id>53</id>
+    <Body>What is Rachel's father's occupation?</Body>
+    <Score>10</Score>
+    <r>Doctor</r>
+    <w>Doesn't work,Lawyer,Judge</w>
+  </Question>
+<Question>
+    <id>54</id>
+    <Body>Who plays 'Will', an old friend of Monica and Ross' from high school who hates Rachel?</Body>
+    <Score>10</Score>
+    <r>Brad Pitt</r>
+    <w>Bruce Willis,Matt LeBlanc,David Schwimmer</w>
+  </Question>
+<Question>
+    <id>55</id>
+    <Body>Where does Chandler tell Janice he has been relocated to to avoid her?</Body>
+    <Score>10</Score>
+    <r>Yemen</r>
+    <w>Las Vegas,Paris,London</w>
+  </Question>
+<Question>
+    <id>56</id>
+    <Body>How many siblings does Chandler have?</Body>
+    <Score>10</Score>
+    <r>None</r>
+    <w>One,Two,Three</w>
+  </Question>
+<Question>
+    <id>57</id>
+    <Body>What is Tag's (Rachel's boyfriend) job?</Body>
+    <Score>10</Score>
+    <r>	Her assistant</r>
+    <w>Her boss,None,Her colleague</w>
+  </Question>
+<Question>
+    <id>58</id>
+    <Body>What was the name of Monica's boyfriend who tried to become the 'Ultimate Fighting Champion'?</Body>
+    <Score>10</Score>
+    <r>Pete</r>
+    <w>Paul,Richard,Chandler</w>
+  </Question>
+  <Question>
+    <id>59</id>
+    <Body>What is Dr. Drake Ramoray's speciality (branch of medicine)?</Body>
+    <Score>10</Score>
+    <r>Neurosurgery</r>
+    <w>Cardiology,Neurology,Neonatology</w>
+  </Question>
+ <Question>
+    <id>60</id>
+    <Body>Where do Ross and Phoebe get stuck before Ben is born?</Body>
+    <Score>10</Score>
+    <r>A cleaning closet</r>
+    <w>Consulting room,Surgery,Nursery</w>
+  </Question>
+</Questions>
+

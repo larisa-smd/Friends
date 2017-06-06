@@ -1,0 +1,43 @@
+﻿@{
+    ViewBag.Title = "FRIENDS - quiz";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 intro">
+            <h1 class="text-center"> This is a quiz on the TV show "FRIENDS"</h1>
+            <p>
+                Three young men and three young women - of the BFF kind - live in the same apartment complex and face life and love in New York. They're not above sticking their noses into one another's businesses and swapping romantic partners, which always leads to the kind of hilarity average people will never experience - especially during breakups.
+            </p>
+            <p class="help-block">
+                First episode date: 22 September 1994<br />
+                Final episode date: 6 May 2004
+            </p>
+
+            <p>
+                <span style="font-style:italic; font-size: 26px;">Starring:</span> <br />
+                Jennifer Aniston, Courteney Cox, Lisa Kudrow, Matt LeBlanc, Matthew Perry, David Schwimmer, James Michael Tyler, Elliott Gould, Christina Pickles, Jane Sibbett, Cole Sprouse, Max Wright, Maggie Wheeler, Paul Rudd, Giovanni Ribisi, Tom Selleck, Hank Azaria
+            </p>
+            <p class="help-block"> Seasons: 10</p>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+           
+            <img src="~/Content/images/00147260750e30db6ecc45e8fb75f411.jpg"  class="img-thumbnail img-responsive image-index" />  
+             @Html.ActionLink("Top high scores of users", "HighScores", null, new { @class = "btn btn-default button" }) 
+           @using (@Html.BeginForm("QuizStart", "Home", FormMethod.Post))
+            {
+
+               
+                <h2> Please enter your name: @Html.TextBox("user",null,new { @class="user"})</h2>
+                <p>
+                    <input type="submit" value="Start quiz" class="btn btn-lg button" style="width: 60%;"/>
+                  
+                </p>
+            }
+        </div>
+    </div>
+   
+    
+</div>

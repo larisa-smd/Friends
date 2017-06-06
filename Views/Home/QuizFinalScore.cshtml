@@ -1,0 +1,17 @@
+﻿@model FriendsQuiz.Models.UsersScore
+@{ 
+   Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<div class="row">
+    <div class="col-lg-10 col-md-10 col-sm-12 col-xs-12 text-center image-panel">
+        <h1>
+            Congratulation, @Model.Name, you have completed the quiz.
+            <br /> Your total score is: <b>@Model.Score</b>
+        </h1>
+        <h3> Thank you very much for your time!!</h3>
+
+        <h3> If you want to try the quiz again @Html.ActionLink("CLICK HERE", "Index", null, new { @class = "btn btn-default button" })</h3>
+        <h3> @Html.ActionLink("Top high scores of users", "HighScores",null,new{@class="btn btn-default button", @style="width: auto;"})</h3>
+    </div>
+</div>
+
